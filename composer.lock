@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8df450d8d6cc5b13f21e578335e59c9b",
+    "packages": [
+        {
+            "name": "leoralph/di-resolver",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leoralph/DI-Resolver.git",
+                "reference": "a14a70e3c9da96463bee67b172e5f1556100b4d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leoralph/DI-Resolver/zipball/a14a70e3c9da96463bee67b172e5f1556100b4d3",
+                "reference": "a14a70e3c9da96463bee67b172e5f1556100b4d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LeoRalph\\DependencyResolver\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Leonardo Ralph",
+                    "email": "theleoralph@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/leoralph/DI-Resolver/issues",
+                "source": "https://github.com/leoralph/DI-Resolver/tree/main"
+            },
+            "time": "2022-08-21T18:41:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "leoralph/di-resolver": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
